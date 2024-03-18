@@ -12,6 +12,6 @@
   src: url(/assets/fonts/iranyekanwebboldfanum.woff) format("woff");
 }
 
-body {
+body, button {
   font-family: "iranYekan";
 }

@@ -1,4 +1,5 @@
-/* Style Reset */*,
+/* Style Reset */
+*,
 *::before,
 *::after {
   box-sizing: border-box;
@@ -54,5 +55,42 @@ h2 {
 
   h2 {
     font-size: 3.5rem;
+  }
+}
+
+.btn {
+  outline: 0;
+  border: 0;
+  padding: 2rem 2.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 1rem 0;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 1.4rem;
+}
+
+.btn--primary {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.btn--secondary {
+  background-color: var(--color-secondary-dark);
+  color: var(--color-secondary-light);
+}
+
+.btn-block {
+  width: 100%;
+  font-size: 1.6rem;
+}
+
+@media screen and(min-width: 1024px) {
+  .btn {
+    font-size: 1.6rem;
+  }
+
+  .btn-block {
+    font-size: 2rem;
   }
 }
